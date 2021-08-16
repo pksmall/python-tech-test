@@ -48,7 +48,7 @@ If you wish to implement optional bonus features see `EXTRA_FEATURES.md` in this
 Submit a pull request or email a ZIP of your project code to [jobs@odwyer.software](mailto:jobs@odwyer.software)
 
 
-Have 3 endpoins:
+## Job Done and we have 3 endpoins:
 */url/shorten*
 ```
 {
