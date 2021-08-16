@@ -46,3 +46,29 @@ If you wish to implement optional bonus features see `EXTRA_FEATURES.md` in this
 ## Submissions
 
 Submit a pull request or email a ZIP of your project code to [jobs@odwyer.software](mailto:jobs@odwyer.software)
+
+
+Have 3 endpoins:
+*/url/shorten*
+```
+{
+  "shortened_url": "http://localhost:5002/3GmvnmAo"
+}
+```
+
+*/url/count*
+```
+{
+  "shortened_url_count": "2"
+}
+```
+
+*/url/popular*
+```angular2html
+{
+  "shortened_url_popular": [
+    "https://www.google.com",
+    "https://www.ibm.com"
+  ]
+}
+```
