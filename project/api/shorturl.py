@@ -51,11 +51,15 @@ class ShortUrlCount(Resource):
     return response_object, 200
 
 
+get_answer_popular = shorturl_namespace.model('Answer ShortURL Count', {
+  'shortened_url_popular': fields.String(required=True, description='Answered shorturl popular')
+})
+
+
 class ShortUrlPopular(Resource):
-  @shorturl_namespace.expect(get_answer_count, validate=False)
+  @shorturl_namespace.expect(get_answer_popular, validate=False)
   def get(self):
     populars = get_short_url_popular()
-    print(populars)
     response_object = {
       "shortened_url_popular": populars
     }
