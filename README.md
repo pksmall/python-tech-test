@@ -64,7 +64,7 @@ Have 3 endpoins:
 ```
 
 */url/popular*
-```angular2html
+```
 {
   "shortened_url_popular": [
     "https://www.google.com",
