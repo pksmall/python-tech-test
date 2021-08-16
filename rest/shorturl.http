@@ -1,0 +1,15 @@
+###
+POST http://localhost:5002/url/shorten
+Content-Type: application/json
+
+{
+  "url": "https://www.ibm.com"
+}
+
+###
+GET http://localhost:5002/url/count
+Content-Type: application/json
+
+###
+GET http://localhost:5002/url/popular
+Content-Type: application/json
