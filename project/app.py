@@ -1,5 +1,4 @@
 import os
-import sqlite3
 
 from flask_babel import Babel, _
 from flask_cors import CORS
